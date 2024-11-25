@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie app</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="box">📹Moviefy🎥</h1>
+    <form id="searchMovieForm">
+        <input type="search" name="" value="" id="searchMovie">
+        <button type="submit" id="searchBtn">Search</button>
+    </form>
+
+    <div class="perent-card"></div>
+     <template id="card-template">
+    <div class="card">
+        <img  src="https://images.moviesanywhere.com/143cdb987186a1c8f94d4f18de211216/fdea56fa-2703-47c1-8da8-70fc5382e1ea.jpg" alt="Not Available" class="card-image">
+
+        <div class="card-contant">
+            <h2 class="contant" id="title">Title : <span>Harry Petter</span></h2>
+            <h3 class="contant" id="year">Year : <span>2001</span></h3>
+            <h4 class="contant" id="type"> Type : <span id="movie">Movie</span></h4>
+        </div>
+    </div>
+  </template>
+    <script src="movie.js"></script>
+</body>
+</html>

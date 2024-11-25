@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1 {
+    font-size: 3.5rem;
+    /* margin-top: 1rem; */
+    text-align: center;
+}
+
+#searchMovieForm{
+    /*
+    text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+input{
+    height: 2.8rem;
+    width: 20.5rem;
+    border: 0.2rem solid black;
+    font-size:1rem ;
+   
+}
+#searchBtn{
+    height: 2.8rem;
+    width: 6rem;
+    margin-left: 1rem;
+    background-color: red;
+    border: 0.2rem solid black;
+    /* border-radius: 0.2rem; */
+}
+.card{
+    height: 26.6rem;
+    width: 17rem;
+    background-size: cover;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    border: 2px solid  black;
+    color: black;
+    border-radius: 1rem ;
+    box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    transition: box-shadow 0.3s
+   
+}
+.card:hover{
+    box-shadow: none;
+}
+.card-image{
+    height: 17rem;
+    width: 16.8rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+  
+}
+
+.contant{
+    margin-top: 0.5rem;
+    font-size: 1.3rem;
+    margin-left: 0.5rem;
+}
+#movie{
+   background-color: red;
+   border-radius: 0.3rem;
+   padding: 5px;
+   color: #fff;
+}
+
+.perent-card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#type{
+    margin-top: 1rem;
+}
+
+
+@media (max-width:768px){
+    #searchMovieForm{
+        flex-wrap: wrap;
+        text-align: center;
+    
+    }
+    #searchBtn{
+        margin-top: 0.5rem;
+    }
+    .card{
+       width: 20rem;
+    }
+    .card-image{
+        width: 19.7rem;
+    }
+}
